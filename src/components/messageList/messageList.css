@@ -1,0 +1,43 @@
+.messageList{
+    width: 100%;
+    height: 40vh;
+    border-radius: 10px;
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    margin: 20px;
+}
+
+.messageListWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.messageContainer{
+    display: flex;
+    align-items: flex-end;
+}
+
+.message{
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    margin: 10px;
+    padding: 10px;
+}
+
+.left{
+    justify-content: flex-start;
+}
+
+.right{
+    justify-content: flex-end;
+}
+
+.chatOwner{
+    background-color: rgb(225, 239, 248);
+}
+
+.chatGuest{
+    background-color: rgb(198, 243, 204);
+}
